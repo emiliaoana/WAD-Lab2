@@ -49,7 +49,6 @@ public class UserController {
             description = "Creates a new user using the provided data"
     )
     @PostMapping
-    @ResponseStatus(HttpStatus.CREATED)
     public void saveUser(
             @RequestBody UserCreateDTO user
     ) {
