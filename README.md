@@ -15,3 +15,6 @@ For project and database setup, please refer to the `README.md` file from the fi
 - Book filter: allows us to filter books based on price range (min price, max price)
 - Update book: allows us to update the details of a book by id
 
+### Extra details
+- Swagger can be accessed at http://localhost:8080/swagger-ui/index.html
+
