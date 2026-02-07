@@ -1,13 +1,14 @@
-Start from the code presented in the course (first Spring MVC application).
-
-1) Make it run and test it.
-
-2) From the home page add the following links (and the required functionality in the back-end):
+### 1. User management
 
 -Add User: allows us to add a new user (id, name, email)
+-View Users: allows us to see the list of all users
+-Delete User: allows us to delete a user by id
+-Get User: allows us to get a user by id
+-Delete All Users: allows us to delete all users
 
--View Users: show all users
+### 2. Book management
+-Add Book: allows us to add a new book (id, title, author, price, category)
+-Book search: allows us to search for books based on one or more criteria (title, author, category)
+-Book filter: allows us to filter books based on price range (min price, max price)
+-Update book: allows us to update the details of a book by id
 
-3) Add to Product a price and category, modify existing code to also add and show these attributes
-
-4) Add a link "Find products" in the main page which will take you to a form in which you can search products by their category, min price AND/OR max price. Once the form is submitted, the list of products that match the criteria should be displayed.
