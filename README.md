@@ -2,17 +2,34 @@ For project and database setup, please refer to the `README.md` file from the fi
 
 ## Laboratory Requirements
 ### 1. User management
-
+####  User controller @RequestMapping("/users")
+POST 
 - Add User: allows us to add a new user (id, name, email)
+
+GET
 - View Users: allows us to see the list of all users
+
+DELETE /{id}
 - Delete User: allows us to delete a user by id
+
+GET /{id}
 - Get User: allows us to get a user by id
+
+DELETE
 - Delete All Users: allows us to delete all users
 
 ### 2. Book management
+####  BookController @RequestMapping("/books")
+POST 
 - Add Book: allows us to add a new book (id, title, author, price, category)
+
+GET /search
 - Book search: allows us to search for books based on one or more criteria (title, author, category)
+
+GET /filter
 - Book filter: allows us to filter books based on price range (min price, max price)
+
+PUT /{id}
 - Update book: allows us to update the details of a book by id
 
 ### Extra details
