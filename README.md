@@ -24,7 +24,7 @@ POST
 - Add Book: allows us to add a new book (id, title, author, price, category)
 
 GET /search
-- Book search: allows us to search for books based on one or more criteria (title, author, category)
+- Book search: allows us to search for books based on one of the following criteria: title, author or category
 
 GET /filter
 - Book filter: allows us to filter books based on price range (min price, max price)
