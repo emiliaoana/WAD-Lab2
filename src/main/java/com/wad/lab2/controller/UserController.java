@@ -6,7 +6,6 @@ import com.wad.lab2.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -53,5 +52,25 @@ public class UserController {
             @RequestBody UserCreateDTO user
     ) {
         // TODO: implement method to save a new user
+    }
+
+    @Operation(
+            summary = "Delete a user",
+            description = "Deletes a user based on the provided user ID"
+    )
+    @DeleteMapping("/{id}")
+    public void deleteUser(
+            @PathVariable Long id
+    ){
+        //TODO implement method to delete user
+    }
+
+    @Operation(
+            summary = "Delete all users",
+            description = "Deletes all users"
+    )
+    @DeleteMapping
+    public void deleteUsers(){
+        //TODO implement method to delete all users
     }
 }
